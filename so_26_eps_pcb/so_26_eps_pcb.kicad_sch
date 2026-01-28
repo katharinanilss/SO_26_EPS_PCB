@@ -2,8 +2,14 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid bf42000f-dc59-47af-ab4a-8f583481d44f)
+	(uuid "bf42000f-dc59-47af-ab4a-8f583481d44f")
 	(paper "A4")
+	(title_block
+		(title "so_26_eps_pcb")
+		(date "2026-01-28")
+		(rev "1")
+		(company "Katharina Nilssen")
+	)
 	(lib_symbols)
 	(sheet_instances
 		(path "/"
