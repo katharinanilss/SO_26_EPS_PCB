@@ -226,7 +226,72 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "lib_symbol_mismatch|1917700|1016000|3d8c8acc-75f0-4e3e-aae0-11501e576ad4|00000000-0000-0000-0000-000000000000|||",
+        "changed name"
+      ],
+      [
+        "lib_symbol_mismatch|1917700|533400|b7698696-6c30-46ec-b26d-f5d35dedfec8|00000000-0000-0000-0000-000000000000|||",
+        "changed name"
+      ],
+      [
+        "lib_symbol_mismatch|2044700|1358900|b1f0c0dc-9817-4383-b96a-6cd42bea91b4|00000000-0000-0000-0000-000000000000|||",
+        "Changed name"
+      ],
+      [
+        "lib_symbol_mismatch|2044700|266700|257c06ba-f7f9-40e7-a1a0-dd3ca1cbc74d|00000000-0000-0000-0000-000000000000|||",
+        "changed name"
+      ],
+      [
+        "lib_symbol_mismatch|2159000|266700|e2cbd44b-9d13-42f0-8523-d260e92292fb|00000000-0000-0000-0000-000000000000|||",
+        "Changed name"
+      ],
+      [
+        "lib_symbol_mismatch|2286000|1358900|fc2147e6-2c68-4aaa-8749-2bc9046433da|00000000-0000-0000-0000-000000000000|||",
+        "Changed name"
+      ],
+      [
+        "lib_symbol_mismatch|2286000|266700|215c7d90-b97b-4e14-83cc-99151463d469|00000000-0000-0000-0000-000000000000|||",
+        "Changed name"
+      ],
+      [
+        "lib_symbol_mismatch|2438400|241300|ec1eda95-2e91-41dd-b869-f356d56b25e0|00000000-0000-0000-0000-000000000000|||",
+        "Changed name"
+      ],
+      [
+        "lib_symbol_mismatch|2438400|927100|b74fd66f-4e9a-437e-acb5-85f82b7b16ec|00000000-0000-0000-0000-000000000000|||",
+        "Changed name"
+      ],
+      [
+        "lib_symbol_mismatch|2476500|800100|15ba43d8-a916-4ce5-b1b4-7e9e8ae25016|00000000-0000-0000-0000-000000000000|||",
+        "Changed name"
+      ],
+      [
+        "lib_symbol_mismatch|2565400|762000|02e45407-03a7-4f4d-917d-bbfce86c9e41|00000000-0000-0000-0000-000000000000|||",
+        "Changed name"
+      ],
+      [
+        "lib_symbol_mismatch|2692400|241300|d388737b-21c9-4a8b-aacf-43b9b459686b|00000000-0000-0000-0000-000000000000|||",
+        "Changed name"
+      ],
+      [
+        "lib_symbol_mismatch|292100|1587500|a1399b71-dbbe-4b73-92a6-c4545aaeeff7|00000000-0000-0000-0000-000000000000|||",
+        "changed name"
+      ],
+      [
+        "lib_symbol_mismatch|406400|444500|77bf2dfc-719a-468a-8207-7947076b2f26|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|723900|431800|8282a499-9b2d-47b3-9957-85c1303f77cb|00000000-0000-0000-0000-000000000000|||",
+        "changed name"
+      ],
+      [
+        "lib_symbol_mismatch|723900|914400|167285f8-9f18-42b8-9a78-9602a40bb675|00000000-0000-0000-0000-000000000000|||",
+        "Changed name"
+      ]
+    ],
     "meta": {
       "version": 0
     },
