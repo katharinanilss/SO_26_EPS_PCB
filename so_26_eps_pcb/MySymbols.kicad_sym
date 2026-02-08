@@ -8,7 +8,7 @@
 		(in_bom no)
 		(on_board no)
 		(property "Reference" "Cell1"
-			(at 0 0 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -61,7 +61,7 @@
 		(symbol "Battery_18650_1_1"
 			(polyline
 				(pts
-					(xy -6.35 -3.81) (xy -3.81 -3.81)
+					(xy -3.81 -3.81) (xy -3.81 1.27)
 				)
 				(stroke
 					(width 0)
@@ -73,7 +73,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.81 -2.54) (xy -3.81 -2.54)
+					(xy -2.54 -2.54) (xy -2.54 0)
 				)
 				(stroke
 					(width 0)
@@ -85,7 +85,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.81 -2.54) (xy -3.81 -5.08)
+					(xy -1.27 -3.81) (xy -1.27 1.27)
 				)
 				(stroke
 					(width 0)
@@ -97,7 +97,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -1.27) (xy -2.54 -6.35)
+					(xy 0 -2.54) (xy 0 0)
 				)
 				(stroke
 					(width 0)
@@ -109,7 +109,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -2.54) (xy -1.27 -5.08)
+					(xy 1.27 -3.81) (xy 1.27 1.27)
 				)
 				(stroke
 					(width 0)
@@ -121,7 +121,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -1.27) (xy 0 -6.35)
+					(xy 2.54 -2.54) (xy 2.54 0)
 				)
 				(stroke
 					(width 0)
@@ -133,31 +133,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 -2.54) (xy 1.27 -5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -1.27) (xy 2.54 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -3.81) (xy 5.08 -3.81)
+					(xy 2.54 -2.54) (xy 2.54 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -168,25 +144,7 @@
 				)
 			)
 			(pin output line
-				(at -6.35 -3.81 0)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 5.08 -3.81 180)
+				(at -6.35 -1.27 0)
 				(length 2.54)
 				(name ""
 					(effects
@@ -196,6 +154,24 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 5.08 -1.27 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -207,7 +183,7 @@
 		(symbol "Battery_18650_2_1"
 			(polyline
 				(pts
-					(xy -6.35 -3.81) (xy -3.81 -3.81)
+					(xy -3.81 -6.35) (xy -3.81 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -219,7 +195,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.81 -2.54) (xy -3.81 -2.54)
+					(xy -2.54 -5.08) (xy -2.54 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -231,7 +207,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.81 -2.54) (xy -3.81 -5.08)
+					(xy -1.27 -6.35) (xy -1.27 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -243,7 +219,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -1.27) (xy -2.54 -6.35)
+					(xy 0 -5.08) (xy 0 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -255,7 +231,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -2.54) (xy -1.27 -5.08)
+					(xy 1.27 -6.35) (xy 1.27 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -267,7 +243,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -1.27) (xy 0 -6.35)
+					(xy 2.54 -5.08) (xy 2.54 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -279,31 +255,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 -2.54) (xy 1.27 -5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -1.27) (xy 2.54 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -3.81) (xy 5.08 -3.81)
+					(xy 2.54 -5.08) (xy 2.54 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -323,7 +275,7 @@
 						)
 					)
 				)
-				(number "2"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -341,7 +293,7 @@
 						)
 					)
 				)
-				(number "1"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -353,7 +305,7 @@
 		(symbol "Battery_18650_3_1"
 			(polyline
 				(pts
-					(xy -6.35 -3.81) (xy -3.81 -3.81)
+					(xy -3.81 -6.35) (xy -3.81 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -365,7 +317,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.81 -2.54) (xy -3.81 -2.54)
+					(xy -2.54 -5.08) (xy -2.54 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -377,7 +329,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.81 -2.54) (xy -3.81 -5.08)
+					(xy -1.27 -6.35) (xy -1.27 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -389,7 +341,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -1.27) (xy -2.54 -6.35)
+					(xy 0 -5.08) (xy 0 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -401,7 +353,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -2.54) (xy -1.27 -5.08)
+					(xy 1.27 -6.35) (xy 1.27 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -413,7 +365,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -1.27) (xy 0 -6.35)
+					(xy 2.54 -5.08) (xy 2.54 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -425,31 +377,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 -2.54) (xy 1.27 -5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -1.27) (xy 2.54 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -3.81) (xy 5.08 -3.81)
+					(xy 2.54 -5.08) (xy 2.54 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -469,7 +397,7 @@
 						)
 					)
 				)
-				(number "2"
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -487,7 +415,7 @@
 						)
 					)
 				)
-				(number "1"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -499,7 +427,7 @@
 		(symbol "Battery_18650_4_1"
 			(polyline
 				(pts
-					(xy -6.35 -3.81) (xy -3.81 -3.81)
+					(xy -3.81 -6.35) (xy -3.81 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -511,7 +439,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.81 -2.54) (xy -3.81 -2.54)
+					(xy -2.54 -5.08) (xy -2.54 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -523,7 +451,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.81 -2.54) (xy -3.81 -5.08)
+					(xy -1.27 -6.35) (xy -1.27 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -535,7 +463,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -1.27) (xy -2.54 -6.35)
+					(xy 0 -5.08) (xy 0 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -547,7 +475,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -2.54) (xy -1.27 -5.08)
+					(xy 1.27 -6.35) (xy 1.27 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -559,7 +487,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -1.27) (xy 0 -6.35)
+					(xy 2.54 -5.08) (xy 2.54 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -571,31 +499,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 -2.54) (xy 1.27 -5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -1.27) (xy 2.54 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -3.81) (xy 5.08 -3.81)
+					(xy 2.54 -5.08) (xy 2.54 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -615,7 +519,7 @@
 						)
 					)
 				)
-				(number "2"
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -633,7 +537,7 @@
 						)
 					)
 				)
-				(number "1"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -704,27 +608,9 @@
 				)
 			)
 			(pin input line
-				(at -8.89 -8.89 0)
+				(at -11.43 -8.89 0)
 				(length 2.54)
 				(name "VIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -8.89 -12.7 0)
-				(length 2.54)
-				(name "SS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -740,27 +626,9 @@
 				)
 			)
 			(pin input line
-				(at -8.89 -16.51 0)
+				(at -11.43 -12.7 0)
 				(length 2.54)
-				(name "IADJ"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 13.97 -11.43 180)
-				(length 2.54)
-				(name "FB"
+				(name "SS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -775,28 +643,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at 13.97 -15.24 180)
+			(pin input line
+				(at -11.43 -16.51 0)
 				(length 2.54)
-				(name "BOOT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 13.97 -19.05 180)
-				(length 2.54)
-				(name "SW"
+				(name "IADJ"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -812,7 +662,61 @@
 				)
 			)
 			(pin output line
-				(at 13.97 -22.86 180)
+				(at 16.51 -11.43 180)
+				(length 2.54)
+				(name "FB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 16.51 -15.24 180)
+				(length 2.54)
+				(name "BOOT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 16.51 -19.05 180)
+				(length 2.54)
+				(name "SW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 16.51 -22.86 180)
 				(length 2.54)
 				(name "GND"
 					(effects
