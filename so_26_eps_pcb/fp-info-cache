@@ -1,4 +1,4 @@
-27248265402467878
+27251806532130530
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -74662,6 +74662,13 @@ Battery holder
 8
 8
 Myfootprints
+SRU1048 Inductor
+
+
+0
+2
+2
+Myfootprints
 SWITCH
 
 
@@ -74675,6 +74682,13 @@ SW_SS-5GL_THT
 0
 3
 3
+Myfootprints
+Surface Mount Fuse Block
+
+
+0
+2
+2
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
