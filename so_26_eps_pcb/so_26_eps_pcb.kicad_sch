@@ -7047,7 +7047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27b7af5c-166d-49aa-b9e6-b8fffa07788a")
-		(property "Reference" "CELL_"
+		(property "Reference" "CELL_1"
 			(at 27.94 105.41 0)
 			(effects
 				(font
@@ -7063,7 +7063,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Myfootprints:Battery holder"
 			(at 27.94 109.22 0)
 			(effects
 				(font
@@ -7117,7 +7117,7 @@
 		(instances
 			(project ""
 				(path "/bf42000f-dc59-47af-ab4a-8f583481d44f"
-					(reference "CELL_")
+					(reference "CELL_1")
 					(unit 4)
 				)
 			)
@@ -8091,7 +8091,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43d29a8e-9dff-4a1c-96f2-35268fe145b1")
-		(property "Reference" "CELL_"
+		(property "Reference" "CELL_1"
 			(at 27.94 93.98 0)
 			(effects
 				(font
@@ -8107,7 +8107,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Myfootprints:Battery holder"
 			(at 27.94 97.79 0)
 			(effects
 				(font
@@ -8135,33 +8135,33 @@
 			)
 		)
 		(pin "6"
-			(uuid "f00d5aa6-c39c-4542-b3d2-26b22f78267d")
+			(uuid "f00d5aa6-c39c-4542-b3d2-26b22f78267e")
 		)
 		(pin "7"
-			(uuid "e7f7d5ad-7d7a-48ad-96cd-698f6a6d8a90")
+			(uuid "e7f7d5ad-7d7a-48ad-96cd-698f6a6d8a91")
 		)
 		(pin "8"
-			(uuid "6d9aa47f-ef8a-407e-b287-d8deca210ec2")
+			(uuid "6d9aa47f-ef8a-407e-b287-d8deca210ec3")
 		)
 		(pin "5"
-			(uuid "72ce1ac1-f311-4d2b-a317-9997331b2e35")
+			(uuid "72ce1ac1-f311-4d2b-a317-9997331b2e36")
 		)
 		(pin "1"
-			(uuid "1ac3444f-3c30-444a-93a7-f8e5054df253")
+			(uuid "1ac3444f-3c30-444a-93a7-f8e5054df254")
 		)
 		(pin "4"
-			(uuid "a5452dd9-6f1a-4094-99d6-3c7ec97ec717")
+			(uuid "a5452dd9-6f1a-4094-99d6-3c7ec97ec718")
 		)
 		(pin "2"
-			(uuid "66654370-2c1a-4233-a8e9-b95c677bbcb4")
+			(uuid "66654370-2c1a-4233-a8e9-b95c677bbcb5")
 		)
 		(pin "3"
-			(uuid "09bd2d03-2b9e-46ed-9c3f-f7d7cabf4beb")
+			(uuid "09bd2d03-2b9e-46ed-9c3f-f7d7cabf4bec")
 		)
 		(instances
 			(project ""
 				(path "/bf42000f-dc59-47af-ab4a-8f583481d44f"
-					(reference "CELL_")
+					(reference "CELL_1")
 					(unit 3)
 				)
 			)
@@ -8443,7 +8443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5614a2d0-510c-4f69-a2c5-c884127ed813")
-		(property "Reference" "3V3_Regulator"
+		(property "Reference" "3V3_Regulator1"
 			(at 130.81 35.56 0)
 			(effects
 				(font
@@ -8510,7 +8510,7 @@
 		(instances
 			(project ""
 				(path "/bf42000f-dc59-47af-ab4a-8f583481d44f"
-					(reference "3V3_Regulator")
+					(reference "3V3_Regulator1")
 					(unit 1)
 				)
 			)
@@ -10837,7 +10837,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b001e930-a14f-49b4-b2c4-f0a085825bbb")
-		(property "Reference" "CELL_"
+		(property "Reference" "CELL_1"
 			(at 27.94 71.12 0)
 			(effects
 				(font
@@ -10853,7 +10853,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Myfootprints:Battery holder"
 			(at 27.94 73.66 0)
 			(effects
 				(font
@@ -10881,33 +10881,33 @@
 			)
 		)
 		(pin "6"
-			(uuid "f00d5aa6-c39c-4542-b3d2-26b22f78267d")
+			(uuid "f00d5aa6-c39c-4542-b3d2-26b22f78267f")
 		)
 		(pin "7"
-			(uuid "e7f7d5ad-7d7a-48ad-96cd-698f6a6d8a90")
+			(uuid "e7f7d5ad-7d7a-48ad-96cd-698f6a6d8a92")
 		)
 		(pin "8"
-			(uuid "6d9aa47f-ef8a-407e-b287-d8deca210ec2")
+			(uuid "6d9aa47f-ef8a-407e-b287-d8deca210ec4")
 		)
 		(pin "5"
-			(uuid "72ce1ac1-f311-4d2b-a317-9997331b2e35")
+			(uuid "72ce1ac1-f311-4d2b-a317-9997331b2e37")
 		)
 		(pin "1"
-			(uuid "1ac3444f-3c30-444a-93a7-f8e5054df253")
+			(uuid "1ac3444f-3c30-444a-93a7-f8e5054df255")
 		)
 		(pin "4"
-			(uuid "a5452dd9-6f1a-4094-99d6-3c7ec97ec717")
+			(uuid "a5452dd9-6f1a-4094-99d6-3c7ec97ec719")
 		)
 		(pin "2"
-			(uuid "66654370-2c1a-4233-a8e9-b95c677bbcb4")
+			(uuid "66654370-2c1a-4233-a8e9-b95c677bbcb6")
 		)
 		(pin "3"
-			(uuid "09bd2d03-2b9e-46ed-9c3f-f7d7cabf4beb")
+			(uuid "09bd2d03-2b9e-46ed-9c3f-f7d7cabf4bed")
 		)
 		(instances
 			(project ""
 				(path "/bf42000f-dc59-47af-ab4a-8f583481d44f"
-					(reference "CELL_")
+					(reference "CELL_1")
 					(unit 1)
 				)
 			)
@@ -10924,7 +10924,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b448b9d1-f373-46bd-9b5c-82ad355987ee")
-		(property "Reference" "10V_Regulator"
+		(property "Reference" "10V_Regulator1"
 			(at 130.81 83.82 0)
 			(effects
 				(font
@@ -10991,7 +10991,7 @@
 		(instances
 			(project "so_26_eps_pcb"
 				(path "/bf42000f-dc59-47af-ab4a-8f583481d44f"
-					(reference "10V_Regulator")
+					(reference "10V_Regulator1")
 					(unit 1)
 				)
 			)
@@ -11416,7 +11416,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd0c26f8-d052-4d26-82c7-def8ab364b8c")
-		(property "Reference" "CELL_"
+		(property "Reference" "CELL_1"
 			(at 27.94 82.55 0)
 			(effects
 				(font
@@ -11432,7 +11432,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Myfootprints:Battery holder"
 			(at 27.94 86.36 0)
 			(effects
 				(font
@@ -11460,33 +11460,33 @@
 			)
 		)
 		(pin "6"
-			(uuid "f00d5aa6-c39c-4542-b3d2-26b22f78267d")
+			(uuid "f00d5aa6-c39c-4542-b3d2-26b22f782680")
 		)
 		(pin "7"
-			(uuid "e7f7d5ad-7d7a-48ad-96cd-698f6a6d8a90")
+			(uuid "e7f7d5ad-7d7a-48ad-96cd-698f6a6d8a93")
 		)
 		(pin "8"
-			(uuid "6d9aa47f-ef8a-407e-b287-d8deca210ec2")
+			(uuid "6d9aa47f-ef8a-407e-b287-d8deca210ec5")
 		)
 		(pin "5"
-			(uuid "72ce1ac1-f311-4d2b-a317-9997331b2e35")
+			(uuid "72ce1ac1-f311-4d2b-a317-9997331b2e38")
 		)
 		(pin "1"
-			(uuid "1ac3444f-3c30-444a-93a7-f8e5054df253")
+			(uuid "1ac3444f-3c30-444a-93a7-f8e5054df256")
 		)
 		(pin "4"
-			(uuid "a5452dd9-6f1a-4094-99d6-3c7ec97ec717")
+			(uuid "a5452dd9-6f1a-4094-99d6-3c7ec97ec71a")
 		)
 		(pin "2"
-			(uuid "66654370-2c1a-4233-a8e9-b95c677bbcb4")
+			(uuid "66654370-2c1a-4233-a8e9-b95c677bbcb7")
 		)
 		(pin "3"
-			(uuid "09bd2d03-2b9e-46ed-9c3f-f7d7cabf4beb")
+			(uuid "09bd2d03-2b9e-46ed-9c3f-f7d7cabf4bee")
 		)
 		(instances
 			(project ""
 				(path "/bf42000f-dc59-47af-ab4a-8f583481d44f"
-					(reference "CELL_")
+					(reference "CELL_1")
 					(unit 2)
 				)
 			)
