@@ -2660,8 +2660,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 5.08 0)
+			(property "Reference" "SW1"
+				(at 0 -8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2669,14 +2669,14 @@
 				)
 			)
 			(property "Value" "SW_SPDT"
-				(at 0 -5.08 0)
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2737,18 +2737,7 @@
 					)
 				)
 				(circle
-					(center 2.032 2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
+					(center 2.032 0)
 					(radius 0.4572)
 					(stroke
 						(width 0)
@@ -2760,17 +2749,6 @@
 				)
 			)
 			(symbol "SW_SPDT_1_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -2790,7 +2768,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at 5.08 0 180)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -2800,24 +2778,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3668,9 +3628,15 @@
 		(color 0 0 0 0)
 		(uuid "fba35159-7d1a-4e50-b0bd-495543a1a1ed")
 	)
-	(no_connect
-		(at 27.94 52.07)
-		(uuid "57bd4d4d-47d9-4575-aa8a-c6ed18991b4c")
+	(wire
+		(pts
+			(xy 22.86 77.47) (xy 22.86 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "002543e4-e311-44f2-8794-26a0ba3a49f4")
 	)
 	(wire
 		(pts
@@ -3924,16 +3890,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 67.31) (xy 22.86 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23f9e03c-5357-4676-9b54-5db58fa60277")
-	)
-	(wire
-		(pts
 			(xy 154.94 101.6) (xy 156.21 101.6)
 		)
 		(stroke
@@ -3964,16 +3920,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 54.61) (xy 40.64 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25d094b6-dbe6-4951-957d-75d62c83c4c1")
-	)
-	(wire
-		(pts
 			(xy 256.54 77.47) (xy 259.08 77.47)
 		)
 		(stroke
@@ -3984,16 +3930,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 67.31) (xy 27.94 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27d6bcdc-7886-42a0-a381-6cf2244cc73b")
-	)
-	(wire
-		(pts
 			(xy 86.36 111.76) (xy 93.98 111.76)
 		)
 		(stroke
@@ -4001,16 +3937,6 @@
 			(type default)
 		)
 		(uuid "27dbde7c-6ed6-4407-afd2-09349e30302f")
-	)
-	(wire
-		(pts
-			(xy 40.64 54.61) (xy 40.64 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2848985d-dde7-499c-a936-52aa5dd748bb")
 	)
 	(wire
 		(pts
@@ -4284,6 +4210,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 113.03) (xy 33.02 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45549a23-f769-45c5-a48f-afe5b8a716ff")
+	)
+	(wire
+		(pts
 			(xy 114.3 54.61) (xy 114.3 53.34)
 		)
 		(stroke
@@ -4501,16 +4437,6 @@
 			(type default)
 		)
 		(uuid "654e44ed-b049-4085-ba78-ffb392567415")
-	)
-	(wire
-		(pts
-			(xy 22.86 67.31) (xy 22.86 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66d820d9-e28e-4846-b79c-536ad2a9035f")
 	)
 	(wire
 		(pts
@@ -5034,7 +4960,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 57.15) (xy 27.94 60.96)
+			(xy 22.86 59.69) (xy 22.86 62.23)
 		)
 		(stroke
 			(width 0)
@@ -5614,16 +5540,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 113.03) (xy 33.02 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3832775-74e3-42bc-b1b5-557df0a05568")
-	)
-	(wire
-		(pts
 			(xy 256.54 90.17) (xy 259.08 90.17)
 		)
 		(stroke
@@ -5860,7 +5776,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 170.18 95.25 0)
 			(effects
 				(font
@@ -6060,7 +5976,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 160.02 104.14 0)
 			(effects
 				(font
@@ -6387,7 +6303,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 198.12 104.14 0)
 			(effects
 				(font
@@ -6658,7 +6574,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 151.13 97.79 0)
 			(effects
 				(font
@@ -6925,7 +6841,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Myfootprints:SRU1048 Inductor"
 			(at 158.75 101.6 0)
 			(effects
 				(font
@@ -7124,6 +7040,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 33.02 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a25257f-28d3-4242-8736-45ff5246ecb0")
+		(property "Reference" "#PWR01"
+			(at 33.02 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.02 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aea9a491-30f4-42aa-8d20-5121c5f0080c")
+		)
+		(instances
+			(project "so_26_eps_pcb"
+				(path "/bf42000f-dc59-47af-ab4a-8f583481d44f"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 243.84 31.75 0)
 		(unit 1)
@@ -7220,7 +7202,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 180.34 55.88 0)
 			(effects
 				(font
@@ -7357,7 +7339,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 91.44 48.26 0)
 			(effects
 				(font
@@ -7490,7 +7472,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 81.28 96.52 0)
 			(effects
 				(font
@@ -7557,7 +7539,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 172.72 45.72 0)
 			(effects
 				(font
@@ -7907,7 +7889,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 189.23 104.14 0)
 			(effects
 				(font
@@ -7972,7 +7954,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Myfootprints:SRU1048 Inductor"
 			(at 158.75 53.34 0)
 			(effects
 				(font
@@ -8042,7 +8024,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 167.64 101.6 0)
 			(effects
 				(font
@@ -8195,7 +8177,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 172.72 93.98 0)
 			(effects
 				(font
@@ -8262,7 +8244,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 274.32 27.94 0)
 			(effects
 				(font
@@ -8393,7 +8375,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 110.49 53.34 0)
 			(effects
 				(font
@@ -8544,7 +8526,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 196.85 55.88 0)
 			(effects
 				(font
@@ -8611,7 +8593,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 99.06 48.26 0)
 			(effects
 				(font
@@ -8678,7 +8660,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 233.68 26.67 0)
 			(effects
 				(font
@@ -8745,7 +8727,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-128"
 			(at 154.94 58.42 90)
 			(effects
 				(font
@@ -8815,7 +8797,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 170.18 46.99 0)
 			(effects
 				(font
@@ -9083,7 +9065,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 110.49 101.6 0)
 			(effects
 				(font
@@ -9124,7 +9106,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 33.02 54.61 180)
+		(at 22.86 72.39 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9133,23 +9115,25 @@
 		(fields_autoplaced yes)
 		(uuid "66c1563a-b1dc-4415-9b2b-10550e9aaf33")
 		(property "Reference" "SW1"
-			(at 33.02 45.72 0)
+			(at 26.67 71.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 33.02 48.26 0)
+			(at 26.67 73.6599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 33.02 54.61 0)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 22.86 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9158,7 +9142,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 46.99 0)
+			(at 15.24 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9167,7 +9151,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 33.02 54.61 0)
+			(at 22.86 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9178,14 +9162,11 @@
 		(pin "1"
 			(uuid "c9255e4b-094d-4a62-8c80-94a9367b9b84")
 		)
-		(pin "3"
-			(uuid "29174f87-bc03-4ccf-8f23-8773664c9bfa")
-		)
 		(pin "2"
 			(uuid "e93a05ce-4b48-45e7-b259-06a318ffd6b7")
 		)
 		(instances
-			(project ""
+			(project "so_26_eps_pcb"
 				(path "/bf42000f-dc59-47af-ab4a-8f583481d44f"
 					(reference "SW1")
 					(unit 1)
@@ -9221,7 +9202,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 220.98 26.67 0)
 			(effects
 				(font
@@ -9358,7 +9339,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 248.92 27.94 0)
 			(effects
 				(font
@@ -9491,7 +9472,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 172.72 55.88 0)
 			(effects
 				(font
@@ -9628,7 +9609,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 81.28 48.26 0)
 			(effects
 				(font
@@ -9695,7 +9676,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 119.38 101.6 0)
 			(effects
 				(font
@@ -9736,7 +9717,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 40.64 44.45 0)
+		(at 22.86 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9744,7 +9725,7 @@
 		(dnp no)
 		(uuid "77bf2dfc-719a-468a-8207-7947076b2f26")
 		(property "Reference" "#PWR04"
-			(at 40.64 48.26 0)
+			(at 22.86 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9753,7 +9734,7 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 40.64 40.005 0)
+			(at 22.86 55.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9761,7 +9742,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 44.45 0)
+			(at 22.86 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9770,7 +9751,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 44.45 0)
+			(at 22.86 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9779,7 +9760,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 44.45 0)
+			(at 22.86 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9826,7 +9807,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 180.34 104.14 0)
 			(effects
 				(font
@@ -10106,7 +10087,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 151.13 49.53 0)
 			(effects
 				(font
@@ -10722,7 +10703,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 189.23 55.88 0)
 			(effects
 				(font
@@ -11159,7 +11140,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-128"
 			(at 154.94 106.68 90)
 			(effects
 				(font
@@ -11341,72 +11322,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 33.02 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb908f59-1ab3-4290-b55f-a5020070b7ae")
-		(property "Reference" "#PWR01"
-			(at 33.02 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 33.02 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "710c782d-11d3-4d1e-8a85-5c0ae1fbb53b")
-		)
-		(instances
-			(project ""
-				(path "/bf42000f-dc59-47af-ab4a-8f583481d44f"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MySymbols:Battery_18650_boxes")
 		(at 27.94 86.36 0)
 		(unit 2)
@@ -11494,7 +11409,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse_Small")
-		(at 27.94 63.5 90)
+		(at 22.86 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11503,7 +11418,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd325840-b100-48e6-b8c2-d1a17509c345")
 		(property "Reference" "F1"
-			(at 29.21 62.2299 90)
+			(at 24.13 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11512,7 +11427,7 @@
 			)
 		)
 		(property "Value" "Fuse_Small"
-			(at 29.21 64.7699 90)
+			(at 24.13 66.0399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11520,8 +11435,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 27.94 63.5 0)
+		(property "Footprint" "Myfootprints:Surface Mount Fuse Block"
+			(at 22.86 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11530,7 +11445,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 27.94 63.5 0)
+			(at 22.86 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11539,7 +11454,7 @@
 			)
 		)
 		(property "Description" "Fuse, small symbol"
-			(at 27.94 63.5 0)
+			(at 22.86 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11654,7 +11569,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 167.64 53.34 0)
 			(effects
 				(font
@@ -11719,7 +11634,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-128"
 			(at 218.44 138.43 90)
 			(effects
 				(font
@@ -11789,7 +11704,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 151.13 45.72 0)
 			(effects
 				(font
@@ -11856,7 +11771,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 149.86 109.22 0)
 			(effects
 				(font
@@ -11987,7 +11902,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 99.06 96.52 0)
 			(effects
 				(font
@@ -12124,7 +12039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 226.06 138.43 0)
 			(effects
 				(font
@@ -12257,7 +12172,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 160.02 55.88 0)
 			(effects
 				(font
@@ -12393,7 +12308,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 172.72 104.14 0)
 			(effects
 				(font
@@ -12526,7 +12441,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 119.38 53.34 0)
 			(effects
 				(font
@@ -12593,7 +12508,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 91.44 96.52 0)
 			(effects
 				(font
@@ -12660,7 +12575,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 149.86 59.69 0)
 			(effects
 				(font
@@ -12791,7 +12706,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 233.68 143.51 0)
 			(effects
 				(font
