@@ -54,16 +54,31 @@
 		)
 	)
 	(attr smd)
-	(fp_rect
-		(start -2.921 3.556)
-		(end 2.921 5.715)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
+	(fp_text user "+"
+		(at -3.81 5.08 0)
+		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "c0ae877d-920f-45ef-8c65-0c04128a8468")
+		(uuid "0f157b6c-ee4a-4a0e-8fcd-eb59cfaf63e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "-"
+		(at 2.413 5.08 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ba95a0af-7b42-46a5-ab23-cdd5d7127178")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
