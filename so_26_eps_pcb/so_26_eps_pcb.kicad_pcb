@@ -155,30 +155,26 @@
 	(net 10 "REG_+10V")
 	(net 11 "+3V3")
 	(net 12 "Net-(D4-K)")
-	(net 13 "Net-(D5-K)")
-	(net 14 "+10V")
-	(net 15 "+10V_ALT")
-	(net 16 "Net-(D6-K)")
-	(net 17 "/VBAT_0")
-	(net 18 "/RADIO_TX")
-	(net 19 "/RADIO_RX")
-	(net 20 "/VBAT_1")
-	(net 21 "Net-(JP1-C)")
-	(net 22 "Net-(10V_Regulator1-SW)")
-	(net 23 "Net-(10V_Regulator1-FB)")
-	(net 24 "Net-(10V_Regulator1-BOOT)")
-	(net 25 "Net-(10V_Regulator1-SS)")
-	(net 26 "Net-(CELL_1-Pad2)")
-	(net 27 "Net-(CELL_1-Pad6)")
-	(net 28 "Net-(CELL_1-Pad4)")
-	(net 29 "unconnected-(TP34-Pad1)")
-	(net 30 "unconnected-(TP35-Pad1)")
-	(net 31 "Net-(SW1-B)")
-	(net 32 "Net-(SW1-A)")
+	(net 13 "+10V")
+	(net 14 "+10V_ALT")
+	(net 15 "/VBAT_0")
+	(net 16 "/RADIO_TX")
+	(net 17 "/RADIO_RX")
+	(net 18 "/VBAT_1")
+	(net 19 "Net-(JP1-C)")
+	(net 20 "Net-(10V_Regulator1-SW)")
+	(net 21 "Net-(10V_Regulator1-FB)")
+	(net 22 "Net-(10V_Regulator1-BOOT)")
+	(net 23 "Net-(10V_Regulator1-SS)")
+	(net 24 "Net-(CELL_1-Pad2)")
+	(net 25 "Net-(CELL_1-Pad6)")
+	(net 26 "Net-(CELL_1-Pad4)")
+	(net 27 "Net-(SW1-B)")
+	(net 28 "Net-(J3-Pin_1)")
 	(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "0623a909-e3b5-4254-b257-558432b2c20d")
-		(at 221.31 69.566)
+		(at 220.4335 124.275)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C7"
@@ -319,7 +315,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "077190fc-904f-4058-93a7-43f31e1b5c44")
-		(at 190.14 70.576)
+		(at 182.612 58.997)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP14"
@@ -412,7 +408,7 @@
 			(at 0 0)
 			(size 1.5 1.5)
 			(layers "F.Cu" "F.Mask")
-			(net 22 "Net-(10V_Regulator1-SW)")
+			(net 20 "Net-(10V_Regulator1-SW)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "27f4235a-5b59-4b83-b9d2-4024e48c7aeb")
@@ -422,7 +418,7 @@
 	(footprint "Package_TO_SOT_SMD:TO-263-7_TabPin4"
 		(layer "F.Cu")
 		(uuid "08c34e24-c3a8-4eb4-8305-19ddb7c9bcc2")
-		(at 194.79 99.226)
+		(at 109.359 85.94)
 		(descr "TO-263/D2PAK/DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-7-1/")
 		(tags "D2PAK DDPAK TO-263 D2PAK-7 TO-263-7 SOT-427")
 		(property "Reference" "3V3_Regulator1"
@@ -925,13 +921,13 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "09de2694-b067-4e76-90f5-660f4e558b21")
-		(at 202.29 54.376)
+		(at 250.952 38.169)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP34"
 			(at 0 -1.648 0)
 			(layer "F.SilkS")
-			(uuid "f9f0bdd2-5cad-4b7d-9049-bdb8fa3c5922")
+			(uuid "8acc92a6-97e7-423b-9f0b-fb30c292796a")
 			(effects
 				(font
 					(size 1 1)
@@ -942,7 +938,7 @@
 		(property "Value" "~"
 			(at 0 1.75 0)
 			(layer "F.Fab")
-			(uuid "23de27a0-a31c-43a9-a88f-9c0a7cf8b717")
+			(uuid "cb0cb443-b3fe-42d8-aa2b-0792390cc935")
 			(effects
 				(font
 					(size 1 1)
@@ -955,7 +951,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2b6558bd-87df-4d56-b6d9-74728fba9e48")
+			(uuid "c3b13da9-b85f-40e7-9b09-2292a8cd32b3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -968,7 +964,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8d76d8ac-130b-4a97-a900-53773dd09d80")
+			(uuid "2a257235-b49e-4844-b693-9735d9df8169")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1018,7 +1014,7 @@
 			(at 0 0)
 			(size 1.5 1.5)
 			(layers "F.Cu" "F.Mask")
-			(net 29 "unconnected-(TP34-Pad1)")
+			(net 13 "+10V")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "949e6526-a3b3-450d-9d20-bd83de6a8d1a")
@@ -1028,7 +1024,7 @@
 	(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "0c9eca4c-4888-4b67-a573-c85d7be4ee1e")
-		(at 215.3 72.916)
+		(at 195.1965 31.661)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C4"
@@ -1169,7 +1165,7 @@
 	(footprint "Myfootprints:SRU1048 Inductor"
 		(layer "F.Cu")
 		(uuid "123fc41b-fe05-4db7-9573-0e93a2219ab5")
-		(at 210.492 49.051)
+		(at 235.149 127.323)
 		(property "Reference" "L1"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -1275,7 +1271,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "147e11d8-fb4a-4c62-b718-d225fa94a12f")
-		(at 190.14 62.476)
+		(at 182.612 50.897)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP12"
@@ -1368,7 +1364,7 @@
 			(at 0 0)
 			(size 1.5 1.5)
 			(layers "F.Cu" "F.Mask")
-			(net 23 "Net-(10V_Regulator1-FB)")
+			(net 21 "Net-(10V_Regulator1-FB)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "acb62c51-2dd5-4f4a-bbe3-956bc94e6d42")
@@ -1378,11 +1374,11 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "16220cd9-1662-489c-8e7f-38d0ee419d20")
-		(at 214.67 84.916)
+		(at 206.74 29.787)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R4"
-			(at 0 -1.65 0)
+			(at -0.04 -2.297 0)
 			(layer "F.SilkS")
 			(uuid "9467c2af-5439-422c-bdea-9b861bd86180")
 			(effects
@@ -1519,7 +1515,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "1c01ad6b-4f02-4656-9c01-ebe4fa14139f")
-		(at 194.19 62.476)
+		(at 217.932 135.959)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP20"
@@ -1622,7 +1618,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "1e73a9a2-664d-47b4-9116-176b1c7cb633")
-		(at 198.24 54.376)
+		(at 242.824 122.751)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP26"
@@ -1725,7 +1721,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "1fb43462-1a8f-44fd-93c2-fee35b4802db")
-		(at 214.67 81.966)
+		(at 219.186 118.687)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R3"
@@ -2119,7 +2115,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 14 "+10V")
+			(net 13 "+10V")
 			(pinfunction "Pin_2")
 			(pintype "passive")
 			(uuid "2a776989-59b1-44de-ac38-84685074445c")
@@ -2141,7 +2137,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 14 "+10V")
+			(net 13 "+10V")
 			(pinfunction "Pin_4")
 			(pintype "passive")
 			(uuid "2b63e2a0-7f73-4026-864a-0ee72b14b2ce")
@@ -2163,7 +2159,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 14 "+10V")
+			(net 13 "+10V")
 			(pinfunction "Pin_6")
 			(pintype "passive")
 			(uuid "3d2fb174-cc38-4f4d-99bb-9d2ccf7ac610")
@@ -2185,7 +2181,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 15 "+10V_ALT")
+			(net 14 "+10V_ALT")
 			(pinfunction "Pin_8")
 			(pintype "passive")
 			(uuid "583bd928-692e-44b2-895c-d5f12f7c5e81")
@@ -2207,7 +2203,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 15 "+10V_ALT")
+			(net 14 "+10V_ALT")
 			(pinfunction "Pin_10")
 			(pintype "passive")
 			(uuid "afb9314a-65ab-4d2b-b2a2-3d1d5c23b079")
@@ -2229,7 +2225,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 15 "+10V_ALT")
+			(net 14 "+10V_ALT")
 			(pinfunction "Pin_12")
 			(pintype "passive")
 			(uuid "a03edc29-097e-433f-a377-81da0bca538d")
@@ -2295,7 +2291,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 18 "/RADIO_TX")
+			(net 16 "/RADIO_TX")
 			(pinfunction "Pin_18")
 			(pintype "passive")
 			(uuid "857f70d2-9ee4-4acf-8789-264050d6ed51")
@@ -2317,7 +2313,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 19 "/RADIO_RX")
+			(net 17 "/RADIO_RX")
 			(pinfunction "Pin_20")
 			(pintype "passive")
 			(uuid "e50b2e50-dcc2-4675-995f-80eca785f214")
@@ -2339,7 +2335,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 17 "/VBAT_0")
+			(net 15 "/VBAT_0")
 			(pinfunction "Pin_22")
 			(pintype "passive")
 			(uuid "6a676966-36e7-4562-a90a-1288961a6454")
@@ -2361,7 +2357,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 20 "/VBAT_1")
+			(net 18 "/VBAT_1")
 			(pinfunction "Pin_24")
 			(pintype "passive")
 			(uuid "f918e4ec-2e68-4874-b186-968a25941b10")
@@ -2382,7 +2378,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "231788f2-e4ca-442b-9938-a99863cdb4d4")
-		(at 194.19 50.326)
+		(at 226.568 118.941)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP17"
@@ -2485,7 +2481,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "24b2b47b-66dc-4884-94ac-0ada7232b96d")
-		(at 186.09 74.626)
+		(at 178.562 63.047)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP7"
@@ -2588,7 +2584,7 @@
 	(footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 		(layer "F.Cu")
 		(uuid "253d04ee-c549-47db-95ec-de56a6890613")
-		(at 207.125241 80.816)
+		(at 226.1 108.527)
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, diameter=6.3mm, height=7mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm diameter 6.3mm height 7mm Electrolytic Capacitor")
 		(property "Reference" "C13"
@@ -4103,7 +4099,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "2ca9010b-a14a-47fe-ba75-f7af4fca0d98")
-		(at 219.42 76.066)
+		(at 223.79 135.959)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R7"
@@ -4244,7 +4240,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "32e313b9-c868-46cd-9089-7fedafa034f4")
-		(at 202.29 50.326)
+		(at 261.112 154.755)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP33"
@@ -4347,7 +4343,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "335bac7c-0995-4c65-9aea-240399ff8354")
-		(at 186.09 70.576)
+		(at 178.562 58.997)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP6"
@@ -4440,7 +4436,7 @@
 			(at 0 0)
 			(size 1.5 1.5)
 			(layers "F.Cu" "F.Mask")
-			(net 24 "Net-(10V_Regulator1-BOOT)")
+			(net 22 "Net-(10V_Regulator1-BOOT)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "ce5b6af4-63cc-4064-b7ff-72bf6cd456f0")
@@ -4450,7 +4446,7 @@
 	(footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 		(layer "F.Cu")
 		(uuid "33a6f97c-6bdf-48a2-b579-c5ca3e4d36f6")
-		(at 207.125241 72.966)
+		(at 221.528 18.865)
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, diameter=6.3mm, height=7mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm diameter 6.3mm height 7mm Electrolytic Capacitor")
 		(property "Reference" "C12"
@@ -5965,7 +5961,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "3f529894-6dd0-43b7-a090-c3a2995520e0")
-		(at 214.67 76.066)
+		(at 156.194 145.865)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
@@ -6086,7 +6082,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 21 "Net-(JP1-C)")
+			(net 19 "Net-(JP1-C)")
 			(pintype "passive")
 			(uuid "839f703d-6399-43ac-bb35-dbd090648fec")
 		)
@@ -6106,7 +6102,7 @@
 	(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "4002f9cc-9c08-4d4e-a9fb-0e9e4deca102")
-		(at 221.31 66.216)
+		(at 201.2065 24.961)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C6"
@@ -6247,7 +6243,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "41147f95-3988-4825-9f92-0dc4e663d8ea")
-		(at 198.24 66.526)
+		(at 249.174 129.863)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP29"
@@ -6350,7 +6346,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "42647437-860b-413d-b7ec-6bab92146a95")
-		(at 186.09 78.676)
+		(at 178.562 67.097)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP8"
@@ -6453,7 +6449,7 @@
 	(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "49244fae-e2c7-4c45-938f-78d8d7620c66")
-		(at 215.3 66.216)
+		(at 195.1965 24.961)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C2"
@@ -6766,7 +6762,7 @@
 			(drill 2.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 32 "Net-(SW1-A)")
+			(net 28 "Net-(J3-Pin_1)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "2176f915-2520-4e9c-975d-e26d321b67d5")
@@ -6777,7 +6773,7 @@
 			(drill 2.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 31 "Net-(SW1-B)")
+			(net 27 "Net-(SW1-B)")
 			(pinfunction "B")
 			(pintype "passive")
 			(uuid "b2a04eee-88db-471c-8866-ec72b85c381c")
@@ -6787,7 +6783,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "4d3bcc76-ee4a-44da-a486-45a70f9c57f5")
-		(at 190.14 50.326)
+		(at 182.612 38.747)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP9"
@@ -6890,7 +6886,7 @@
 	(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "51d2753e-4f4f-4789-931d-89f96b51122f")
-		(at 227.32 62.866)
+		(at 236.9435 108.273)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C15"
@@ -7031,7 +7027,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "559086ca-ef19-42d6-bac6-ee80457941c1")
-		(at 198.24 78.676)
+		(at 270.002 155.263)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP32"
@@ -7134,7 +7130,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "5600ad92-97d7-4822-a84e-bf47c75063bd")
-		(at 194.19 54.376)
+		(at 227.076 127.069)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP18"
@@ -7237,7 +7233,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "57de20f8-6a85-43f4-9069-3d936bccf101")
-		(at 198.24 58.426)
+		(at 249.174 121.763)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP27"
@@ -7340,7 +7336,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "5855bc4c-36ad-4514-a577-ac0208bf8504")
-		(at 223.765 96.851)
+		(at 258.817 24.707)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D5"
@@ -7514,7 +7510,7 @@
 			(size 1.15 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
-			(net 13 "Net-(D5-K)")
+			(net 13 "+10V")
 			(pinfunction "K")
 			(pintype "passive")
 			(uuid "4176e15d-a842-4c81-9f02-1882179452bd")
@@ -7524,7 +7520,7 @@
 			(size 1.15 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
-			(net 14 "+10V")
+			(net 13 "+10V")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "068302b4-9639-45d5-8449-ae46be34dbb1")
@@ -7545,7 +7541,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "5cb00ae9-e4c1-4461-b90d-0e6a725facf2")
-		(at 219.42 79.016)
+		(at 201.914 35.883)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R8"
@@ -7657,7 +7653,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 23 "Net-(10V_Regulator1-FB)")
+			(net 21 "Net-(10V_Regulator1-FB)")
 			(pintype "passive")
 			(uuid "bb75c452-d017-4a7b-ba89-f642053036bd")
 		)
@@ -7686,7 +7682,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "5d79fae0-0b3e-4846-9275-0da6137254c2")
-		(at 223.765 93.811)
+		(at 266.945 143.071)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D4"
@@ -7976,7 +7972,7 @@
 			(size 4.24 3.81)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 31 "Net-(SW1-B)")
+			(net 27 "Net-(SW1-B)")
 			(pintype "passive")
 			(uuid "e1ca871a-16c1-49fc-ac1a-8abc4a025ec1")
 		)
@@ -7994,7 +7990,7 @@
 	(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "5f5f6a8a-81ab-4372-8246-4ff78f2473db")
-		(at 215.3 69.566)
+		(at 88.4305 80.841)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C3"
@@ -8135,7 +8131,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "642d1c2a-1b1f-4d9d-a99b-38b8bc2b933d")
-		(at 190.14 78.676)
+		(at 223.266 113.861)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP16"
@@ -8238,7 +8234,7 @@
 	(footprint "Package_TO_SOT_SMD:TO-263-7_TabPin4"
 		(layer "F.Cu")
 		(uuid "6625efcb-dda8-4ce0-91fd-298ff4375304")
-		(at 194.79 86.876)
+		(at 182.281 27.482)
 		(descr "TO-263/D2PAK/DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-7-1/")
 		(tags "D2PAK DDPAK TO-263 D2PAK-7 TO-263-7 SOT-427")
 		(property "Reference" "10V_Regulator1"
@@ -8650,7 +8646,7 @@
 			(size 4.6 0.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 22 "Net-(10V_Regulator1-SW)")
+			(net 20 "Net-(10V_Regulator1-SW)")
 			(pinfunction "SW")
 			(pintype "output")
 			(uuid "7c077c27-2de4-4fba-8f6b-ef79c724121e")
@@ -8670,7 +8666,7 @@
 			(size 4.6 0.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 24 "Net-(10V_Regulator1-BOOT)")
+			(net 22 "Net-(10V_Regulator1-BOOT)")
 			(pinfunction "BOOT")
 			(pintype "output")
 			(uuid "9019a372-666f-4aed-baf6-f954324e843d")
@@ -8710,7 +8706,7 @@
 			(size 4.6 0.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 23 "Net-(10V_Regulator1-FB)")
+			(net 21 "Net-(10V_Regulator1-FB)")
 			(pinfunction "FB")
 			(pintype "output")
 			(uuid "fc60c5c9-9a7b-4120-8918-9f5310dc3f25")
@@ -8720,7 +8716,7 @@
 			(size 4.6 0.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 25 "Net-(10V_Regulator1-SS)")
+			(net 23 "Net-(10V_Regulator1-SS)")
 			(pinfunction "SS")
 			(pintype "input")
 			(uuid "9694c96a-6adf-46b3-aafc-44e3a321063b")
@@ -8741,7 +8737,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "69be1c29-6463-46ac-b8e0-3e7f99ddcae4")
-		(at 214.67 87.866)
+		(at 212.36 132.911)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R5"
@@ -8882,7 +8878,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "6b3f030a-6edb-42bd-87f8-aa0c62336cbe")
-		(at 190.14 54.376)
+		(at 182.612 42.797)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP10"
@@ -8985,7 +8981,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "6b96098f-48d6-4138-92c9-4e2801c9a1f0")
-		(at 194.19 70.576)
+		(at 237.49 124.021)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP22"
@@ -9088,7 +9084,7 @@
 	(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "71b905d3-815c-4f21-af31-f7e6f652a646")
-		(at 221.31 62.866)
+		(at 88.6845 93.287)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C5"
@@ -9229,7 +9225,7 @@
 	(footprint "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels"
 		(layer "F.Cu")
 		(uuid "79d2560d-5901-45f7-ad62-45d3f327215a")
-		(at 207.82 100.406)
+		(at 158.718 137.737)
 		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open, labeled with numbers")
 		(tags "solder jumper open")
 		(property "Reference" "JP1"
@@ -9403,7 +9399,7 @@
 			(at -2 0)
 			(size 0.3 0.3)
 			(layers "F.Cu" "F.Mask")
-			(net 17 "/VBAT_0")
+			(net 15 "/VBAT_0")
 			(pinfunction "A")
 			(pintype "passive")
 			(zone_connect 2)
@@ -9427,7 +9423,7 @@
 			(at 0 0)
 			(size 0.3 0.3)
 			(layers "F.Cu")
-			(net 21 "Net-(JP1-C)")
+			(net 19 "Net-(JP1-C)")
 			(pinfunction "C")
 			(pintype "passive")
 			(zone_connect 2)
@@ -9451,7 +9447,7 @@
 			(at 2 0 180)
 			(size 0.3 0.3)
 			(layers "F.Cu" "F.Mask")
-			(net 20 "/VBAT_1")
+			(net 18 "/VBAT_1")
 			(pinfunction "B")
 			(pintype "passive")
 			(zone_connect 2)
@@ -9476,7 +9472,7 @@
 	(footprint "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "7d873a10-52c0-43d5-896d-c87d36c97159")
-		(at 216.82 99.656)
+		(at 261.874 88.715)
 		(descr "Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R10"
@@ -9588,7 +9584,7 @@
 			(size 1.4 3.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.178571)
-			(net 15 "+10V_ALT")
+			(net 14 "+10V_ALT")
 			(pintype "passive")
 			(uuid "7bb8ef73-1869-4c35-8297-251c68de1a8d")
 		)
@@ -9617,11 +9613,11 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "7de160c6-5f29-4860-ba31-8c16ca0d0ba5")
-		(at 206.72 97.106)
+		(at 209.5285 23.691)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C10"
-			(at 0 -1.68 0)
+			(at 0.29 -1.787 0)
 			(layer "F.SilkS")
 			(uuid "8b597604-afd9-4cd4-b1ec-b59c566391c5")
 			(effects
@@ -9729,7 +9725,7 @@
 			(size 1.175 1.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.212766)
-			(net 24 "Net-(10V_Regulator1-BOOT)")
+			(net 22 "Net-(10V_Regulator1-BOOT)")
 			(pintype "passive")
 			(uuid "5745f807-8731-4264-b165-c698b2f480d7")
 		)
@@ -9738,7 +9734,7 @@
 			(size 1.175 1.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.212766)
-			(net 22 "Net-(10V_Regulator1-SW)")
+			(net 20 "Net-(10V_Regulator1-SW)")
 			(pintype "passive")
 			(uuid "d757bed7-9583-4915-89ff-d2785963cde1")
 		)
@@ -9758,7 +9754,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "839bd7fe-0aeb-445d-b829-7bc07d419a76")
-		(at 223.765 99.891)
+		(at 272.279 24.961)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D6"
@@ -9932,7 +9928,7 @@
 			(size 1.15 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
-			(net 16 "Net-(D6-K)")
+			(net 14 "+10V_ALT")
 			(pinfunction "K")
 			(pintype "passive")
 			(uuid "5dec20dd-5ed8-4e98-a84f-1205c2a4e56a")
@@ -9942,7 +9938,7 @@
 			(size 1.15 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
-			(net 15 "+10V_ALT")
+			(net 14 "+10V_ALT")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "442c0b66-c6cc-4592-a74e-8623bebb1edc")
@@ -9963,7 +9959,7 @@
 	(footprint "Diode_SMD:D_SOD-128"
 		(layer "F.Cu")
 		(uuid "88fa19b2-5987-4d14-aa6b-cb75350ccf0d")
-		(at 225.515 80.666)
+		(at 209.718 34.613)
 		(descr "D_SOD-128 (CFP5 SlimSMAW), https://assets.nexperia.com/documents/outline-drawing/SOD128.pdf")
 		(tags "D_SOD-128")
 		(property "Reference" "D2"
@@ -10215,7 +10211,7 @@
 			(size 1.4 2.1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1785714286)
-			(net 22 "Net-(10V_Regulator1-SW)")
+			(net 20 "Net-(10V_Regulator1-SW)")
 			(pinfunction "K")
 			(pintype "passive")
 			(uuid "fbfbff1d-84ac-482f-ab47-90a33a559482")
@@ -10246,7 +10242,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "8dea6e90-8d2d-4df4-aff8-4db3353cbd91")
-		(at 202.29 58.426)
+		(at 272.288 36.391)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP35"
@@ -10339,7 +10335,7 @@
 			(at 0 0)
 			(size 1.5 1.5)
 			(layers "F.Cu" "F.Mask")
-			(net 30 "unconnected-(TP35-Pad1)")
+			(net 14 "+10V_ALT")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "08ff34a2-b268-49d2-ae4e-937683a8f0ab")
@@ -10349,7 +10345,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "90bd7b81-ffb4-434b-8cb2-a45dd4cc145b")
-		(at 194.19 58.426)
+		(at 217.932 131.909)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP19"
@@ -10452,7 +10448,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "97d24137-d659-478e-8749-2e3887e8a3df")
-		(at 186.09 50.326)
+		(at 217.424 19.147)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP1"
@@ -10555,7 +10551,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "99354343-9556-4689-a496-d56c74da9cc8")
-		(at 214.67 90.816)
+		(at 197.164 47.683)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R6"
@@ -10667,7 +10663,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 23 "Net-(10V_Regulator1-FB)")
+			(net 21 "Net-(10V_Regulator1-FB)")
 			(pintype "passive")
 			(uuid "c5aefd30-404c-41bd-8360-3f52b1b219a8")
 		)
@@ -10696,7 +10692,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "9b08f057-1243-4ae1-bd89-5a484b28a88e")
-		(at 198.24 50.326)
+		(at 242.824 118.701)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP25"
@@ -10796,10 +10792,131 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "Myfootprints:01x02_header"
+		(layer "F.Cu")
+		(uuid "9dba3c62-4c76-4c5b-b4b1-bb037b5e1d85")
+		(at 210.566 155.517)
+		(property "Reference" "J2"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "3884253f-0918-4434-bc2a-cfbc9293a717")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "b003f699-b0b3-4e15-aa5b-ce6717a0df3f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a1d12f6b-a608-4fd3-9aac-f07a828397e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3b20f372-f6be-484f-8192-4a7f4bbfe835")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/17606bf2-771d-4388-adb5-1d65b8083c2b")
+		(sheetname "/")
+		(sheetfile "so_26_eps_pcb.kicad_sch")
+		(attr smd)
+		(fp_text user "-"
+			(at 2.413 5.08 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "3c3bc817-9608-40b0-ab6a-9a2df6df0ab3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "+"
+			(at -3.81 5.08 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "7c934849-e44f-4b65-a915-d4ad4fbdef0e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "3f385315-d695-4514-be26-c6ee8ef12ddb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at -1.27 4.572)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "VBAT")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "be95a883-36fc-44ba-bbf0-deb30d8d94a4")
+		)
+		(pad "2" thru_hole circle
+			(at 1.27 4.572)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "Pin_2")
+			(pintype "passive")
+			(uuid "cabbd76f-b106-4ec0-9c48-86790a70a743")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Diode_SMD:D_SOD-128"
 		(layer "F.Cu")
 		(uuid "a98ee67c-199d-490b-8f6b-f83a244b4719")
-		(at 225.515 84.716)
+		(at 266.786 136.721)
 		(descr "D_SOD-128 (CFP5 SlimSMAW), https://assets.nexperia.com/documents/outline-drawing/SOD128.pdf")
 		(tags "D_SOD-128")
 		(property "Reference" "D3"
@@ -11082,7 +11199,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "aafed805-2b92-42d3-8528-ea695fce4687")
-		(at 186.09 58.426)
+		(at 217.424 27.247)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP3"
@@ -11185,7 +11302,7 @@
 	(footprint "Myfootprints:SRU1048 Inductor"
 		(layer "F.Cu")
 		(uuid "ae830899-7999-453c-937e-ec8c9ae0f016")
-		(at 222.592 49.051)
+		(at 168.457 32.835)
 		(property "Reference" "L2"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -11269,7 +11386,7 @@
 			(size 3.6 1.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 22 "Net-(10V_Regulator1-SW)")
+			(net 20 "Net-(10V_Regulator1-SW)")
 			(pintype "passive")
 			(uuid "7552ce6b-ddca-4aec-8687-15b9675471c5")
 		)
@@ -11291,7 +11408,7 @@
 	(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "b3a68598-78ce-4253-9578-bd704061ef39")
-		(at 227.32 66.216)
+		(at 208.5725 39.947)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C16"
@@ -11432,7 +11549,7 @@
 	(footprint "Diode_SMD:D_SOD-128"
 		(layer "F.Cu")
 		(uuid "b54b43d3-a26e-4db1-8c2a-d61a13fe4c48")
-		(at 225.515 76.616)
+		(at 234.782 114.623)
 		(descr "D_SOD-128 (CFP5 SlimSMAW), https://assets.nexperia.com/documents/outline-drawing/SOD128.pdf")
 		(tags "D_SOD-128")
 		(property "Reference" "D1"
@@ -11715,7 +11832,7 @@
 	(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "c01821d9-9f71-4799-b3a9-2123ca902201")
-		(at 227.32 72.916)
+		(at 208.5725 46.647)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C18"
@@ -11856,7 +11973,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "c01ed714-5458-474a-b2e1-964a87fa2226")
-		(at 219.42 84.916)
+		(at 258.842 31.565)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R12"
@@ -11968,7 +12085,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 13 "Net-(D5-K)")
+			(net 13 "+10V")
 			(pintype "passive")
 			(uuid "85619034-039f-4e0a-80f8-abb777233c7c")
 		)
@@ -11997,7 +12114,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "c3639dfd-6e9e-49b0-b283-0e4aabb33b4e")
-		(at 198.24 70.576)
+		(at 249.174 133.913)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP30"
@@ -12100,7 +12217,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "c40cc706-5bca-4463-902a-fc2b71190cf7")
-		(at 219.42 81.966)
+		(at 266.716 148.659)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R11"
@@ -12241,7 +12358,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "cbcf34a2-3776-4425-a5c7-e3f87a1d14db")
-		(at 190.14 66.526)
+		(at 182.612 54.947)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP13"
@@ -12334,7 +12451,7 @@
 			(at 0 0)
 			(size 1.5 1.5)
 			(layers "F.Cu" "F.Mask")
-			(net 23 "Net-(10V_Regulator1-FB)")
+			(net 21 "Net-(10V_Regulator1-FB)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "17e9785f-923c-419a-97de-e9c4c39bfb37")
@@ -12344,7 +12461,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "cc331084-7e1f-4d62-8224-5f153a75fde0")
-		(at 194.19 74.626)
+		(at 232.664 119.971)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP23"
@@ -12447,7 +12564,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "d0c5d376-2f78-4b9c-87f0-e987762a1162")
-		(at 190.14 58.426)
+		(at 182.612 46.847)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP11"
@@ -12550,7 +12667,7 @@
 	(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "d1326e73-caf7-47b9-a1bc-de9ea2e59fb7")
-		(at 227.32 69.566)
+		(at 242.7855 113.099)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C17"
@@ -12691,7 +12808,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "d51f40f7-d24c-40c4-b887-2d2cee758006")
-		(at 219.42 87.866)
+		(at 272.288 31.057)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R13"
@@ -12803,7 +12920,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 16 "Net-(D6-K)")
+			(net 14 "+10V_ALT")
 			(pintype "passive")
 			(uuid "28119de0-b88b-4da5-8261-f816a265c09d")
 		)
@@ -12832,11 +12949,11 @@
 	(footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 		(layer "F.Cu")
 		(uuid "d901dd4f-61ba-42e5-8fe6-5bc9c8156a18")
-		(at 207.125241 65.116)
+		(at 216.448 107.765)
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, diameter=6.3mm, height=7mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm diameter 6.3mm height 7mm Electrolytic Capacitor")
 		(property "Reference" "C11"
-			(at 1.25 -4.4 0)
+			(at 1.154759 -4.087 0)
 			(layer "F.SilkS")
 			(uuid "812723e2-22c0-4d30-8f34-909fd6b59608")
 			(effects
@@ -14347,7 +14464,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "dc76f12a-9a4c-488e-819f-1e5361f5b997")
-		(at 198.24 74.626)
+		(at 249.174 137.963)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP31"
@@ -14450,7 +14567,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "ddb6d95e-4010-488a-847f-56769f0dc5ec")
-		(at 186.09 54.376)
+		(at 217.424 23.197)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP2"
@@ -14553,7 +14670,7 @@
 	(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "df3a2e4d-aa8e-42a9-9de4-cad987c3f20f")
-		(at 215.3 62.866)
+		(at 88.9385 86.937)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C1"
@@ -14694,7 +14811,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "dfb29ab4-3cdd-4a35-94a9-b79613f97824")
-		(at 190.14 74.626)
+		(at 182.612 63.047)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP15"
@@ -14794,10 +14911,131 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "Myfootprints:01x02_header"
+		(layer "F.Cu")
+		(uuid "e0a026d6-cf0e-4bc0-a072-a536aea3563e")
+		(at 89.662 103.447)
+		(property "Reference" "J3"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "53d7b450-6d92-4e12-824e-58c1a7f4859b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "04a27a01-a6ee-417a-bdc8-cd42677f989a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "31fb962d-4dc7-44cb-984a-d6c17179cb31")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14e1b16f-3f5b-425b-ac1b-3c50fe014e40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/5acc6eaa-a068-4ddc-ab4f-94ec798a0efc")
+		(sheetname "/")
+		(sheetfile "so_26_eps_pcb.kicad_sch")
+		(attr smd)
+		(fp_text user "+"
+			(at -3.81 5.08 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "25f02aa5-bcbd-48c5-bf82-27b308d81735")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "-"
+			(at 2.413 5.08 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "a90811ae-b02a-4f12-8079-e9ac4cb8fd47")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "5a5d1fdd-0fdf-401c-b888-36db18993770")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at -1.27 4.572)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 28 "Net-(J3-Pin_1)")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "8971719f-74f4-4484-b50e-bc5b0123f7e3")
+		)
+		(pad "2" thru_hole circle
+			(at 1.27 4.572)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "Pin_2")
+			(pintype "passive")
+			(uuid "2bd2ffb4-a97a-4889-8cd1-6655db923ec2")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "e37a11b2-d2ef-40c0-9a39-3353545769f9")
-		(at 221.31 72.916)
+		(at 201.2065 31.661)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C8"
@@ -14918,7 +15156,7 @@
 			(size 1.325 1.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.188679)
-			(net 25 "Net-(10V_Regulator1-SS)")
+			(net 23 "Net-(10V_Regulator1-SS)")
 			(pintype "passive")
 			(uuid "bd1376d9-d749-4573-8484-031b8cec7872")
 		)
@@ -15023,7 +15261,7 @@
 			(drill 2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 32 "Net-(SW1-A)")
+			(net 28 "Net-(J3-Pin_1)")
 			(pintype "input")
 			(uuid "21fa1d42-e543-481d-95eb-0bae4cc9fa42")
 		)
@@ -15033,7 +15271,7 @@
 			(drill 2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 26 "Net-(CELL_1-Pad2)")
+			(net 24 "Net-(CELL_1-Pad2)")
 			(pintype "output")
 			(uuid "a7232594-984e-4b31-8ad4-cb081f4efd0a")
 		)
@@ -15043,7 +15281,7 @@
 			(drill 2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 26 "Net-(CELL_1-Pad2)")
+			(net 24 "Net-(CELL_1-Pad2)")
 			(pintype "input")
 			(uuid "33b4a715-16b1-49d2-979b-0cb4bb267834")
 		)
@@ -15053,7 +15291,7 @@
 			(drill 2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 28 "Net-(CELL_1-Pad4)")
+			(net 26 "Net-(CELL_1-Pad4)")
 			(pintype "output")
 			(uuid "b251e7e0-ba00-49de-8bb8-9d39df1b9bd6")
 		)
@@ -15063,7 +15301,7 @@
 			(drill 2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 28 "Net-(CELL_1-Pad4)")
+			(net 26 "Net-(CELL_1-Pad4)")
 			(pintype "input")
 			(uuid "57789580-18f4-409b-aa9a-16fb415898d6")
 		)
@@ -15073,7 +15311,7 @@
 			(drill 2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 27 "Net-(CELL_1-Pad6)")
+			(net 25 "Net-(CELL_1-Pad6)")
 			(pintype "output")
 			(uuid "a19e1f91-450d-46f2-b850-a2fdd6a1a708")
 		)
@@ -15083,7 +15321,7 @@
 			(drill 2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 27 "Net-(CELL_1-Pad6)")
+			(net 25 "Net-(CELL_1-Pad6)")
 			(pintype "input")
 			(uuid "b14751ec-a989-49d2-ab9f-35031eca2e97")
 		)
@@ -15110,7 +15348,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "e8d0f1bc-c880-4895-853b-05f562c9dafe")
-		(at 186.09 66.526)
+		(at 217.424 35.347)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP5"
@@ -15213,7 +15451,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "e921253d-bd9f-457e-9544-3217f6baae13")
-		(at 198.24 62.476)
+		(at 249.174 125.813)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP28"
@@ -15316,7 +15554,7 @@
 	(footprint "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "e9a85367-b53b-4836-8920-4d34762abb50")
-		(at 216.82 94.746)
+		(at 261.872 81.603)
 		(descr "Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R9"
@@ -15428,7 +15666,7 @@
 			(size 1.4 3.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.178571)
-			(net 14 "+10V")
+			(net 13 "+10V")
 			(pintype "passive")
 			(uuid "69c91fc1-9144-4e30-a0fb-0cdd053bc671")
 		)
@@ -15457,7 +15695,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "eb7c8894-5363-4f3c-9fe2-aeceee9876ad")
-		(at 202.29 62.476)
+		(at 259.08 75.507)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP36"
@@ -15550,7 +15788,7 @@
 			(at 0 0)
 			(size 1.5 1.5)
 			(layers "F.Cu" "F.Mask")
-			(net 14 "+10V")
+			(net 13 "+10V")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "2aa7ca4f-469b-48a3-be7d-268a2d3544f3")
@@ -15560,7 +15798,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "f002086f-9373-4d32-b649-d76b0dbcb80e")
-		(at 186.09 62.476)
+		(at 217.424 31.297)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP4"
@@ -15653,7 +15891,7 @@
 			(at 0 0)
 			(size 1.5 1.5)
 			(layers "F.Cu" "F.Mask")
-			(net 25 "Net-(10V_Regulator1-SS)")
+			(net 23 "Net-(10V_Regulator1-SS)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "2e65470c-18ac-4d92-a88b-ad8492be1a2c")
@@ -15663,7 +15901,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "f11eb540-6484-4ae8-9885-7ee7dbc61651")
-		(at 194.19 66.526)
+		(at 224.79 131.641)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP21"
@@ -15766,7 +16004,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "f3bae97f-b7c2-44cd-848c-c265c248ea83")
-		(at 214.67 79.016)
+		(at 164.576 146.119)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
@@ -15878,7 +16116,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 21 "Net-(JP1-C)")
+			(net 19 "Net-(JP1-C)")
 			(pintype "passive")
 			(uuid "fe491bb2-b036-4dfa-8ab9-ae12d8c24d17")
 		)
@@ -15907,7 +16145,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "f6224b82-6051-4536-b7c1-85c7d8c40a70")
-		(at 194.19 78.676)
+		(at 232.664 124.021)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP24"
@@ -16010,7 +16248,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "f80613e4-4cbd-4a5e-aa85-b17a0220bb3b")
-		(at 202.29 66.526)
+		(at 259.588 94.557)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP37"
@@ -16103,7 +16341,7 @@
 			(at 0 0)
 			(size 1.5 1.5)
 			(layers "F.Cu" "F.Mask")
-			(net 15 "+10V_ALT")
+			(net 14 "+10V_ALT")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "d2cf2dfb-473f-4a37-b932-d15f79bb0e89")
@@ -16113,7 +16351,7 @@
 	(footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 		(layer "F.Cu")
 		(uuid "f99c03d9-3ada-43fd-b512-bffd1fd9e4a7")
-		(at 207.125241 88.666)
+		(at 221.528 34.565)
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, diameter=6.3mm, height=7mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm diameter 6.3mm height 7mm Electrolytic Capacitor")
 		(property "Reference" "C14"
@@ -17628,7 +17866,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "fe222214-d9ad-4fb1-b37b-a4e9352abffd")
-		(at 206.72 94.096)
+		(at 207.4965 131.387)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C9"
