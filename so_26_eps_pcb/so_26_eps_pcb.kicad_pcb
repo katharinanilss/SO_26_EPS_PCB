@@ -14800,8 +14800,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "SO26 - EPS\nKATHARINA NILSSEN\n11.02.26"
-		(at 70.866 33.1398 90)
+	(gr_text "SO26 - EPS\nREV 1\nKATHARINA NILSSEN\n11.02.26"
+		(at 71.9328 32.8858 90)
 		(layer "B.SilkS")
 		(uuid "c3aa0fb4-0d86-437c-a03c-d80a53dc004a")
 		(effects
