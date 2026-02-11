@@ -872,7 +872,7 @@
 		(uuid "539892aa-8a24-48f4-9a61-24693732d6e6")
 		(at 81.574 120.8985 180)
 		(property "Reference" "J3"
-			(at -0.1124 9.6283 0)
+			(at -0.214 3.2275 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "b5742d5d-7eac-4353-accf-be1ed6b586d6")
@@ -14715,6 +14715,18 @@
 		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "f574ab9e-4b50-436c-a17c-5c6f18d69fa6")
+	)
+	(gr_text "EXT PWR 10-16.8V"
+		(at 74.0156 111.9306 0)
+		(layer "F.SilkS")
+		(uuid "f46cd4f6-8440-4d7a-bbcf-bd36467b4331")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
 	)
 	(gr_text "+3V3"
 		(at 77.937123 105.3948 0)
