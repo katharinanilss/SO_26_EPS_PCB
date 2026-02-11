@@ -4878,16 +4878,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 162.56) (xy 134.62 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "818b2a1e-9438-4209-888f-0cd7177ca011")
-	)
-	(wire
-		(pts
 			(xy 33.02 107.95) (xy 22.86 107.95)
 		)
 		(stroke
@@ -5345,16 +5335,6 @@
 			(type default)
 		)
 		(uuid "b155f55e-96d9-4da0-a488-16343d8801a6")
-	)
-	(wire
-		(pts
-			(xy 132.08 160.02) (xy 134.62 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b20d755f-e846-4e60-b2e0-89f2bc75b124")
 	)
 	(wire
 		(pts
@@ -6679,76 +6659,6 @@
 			(project "so_26_eps_pcb"
 				(path "/bf42000f-dc59-47af-ab4a-8f583481d44f"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 139.7 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "17606bf2-771d-4388-adb5-1d65b8083c2b")
-		(property "Reference" "J2"
-			(at 142.24 160.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 142.24 162.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Myfootprints:01x02_header"
-			(at 139.7 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 139.7 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3fbf8ba7-cadf-4930-bb3a-01adcdbcbb33")
-		)
-		(pin "2"
-			(uuid "8b849479-b13e-4dfb-98db-1bae2c1ee979")
-		)
-		(instances
-			(project ""
-				(path "/bf42000f-dc59-47af-ab4a-8f583481d44f"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -12229,72 +12139,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 132.08 162.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1b2bfd7-4d24-4653-8989-a94ea3cf0e1d")
-		(property "Reference" "#PWR028"
-			(at 132.08 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 132.08 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "48f706f4-ce32-4597-9bda-80aeb17f5add")
-		)
-		(instances
-			(project ""
-				(path "/bf42000f-dc59-47af-ab4a-8f583481d44f"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 247.65 80.01 0)
 		(unit 1)
@@ -13703,70 +13547,6 @@
 			(project "so_26_eps_pcb"
 				(path "/bf42000f-dc59-47af-ab4a-8f583481d44f"
 					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 132.08 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fb990d11-a208-47c8-abbc-92c68e1e8ac3")
-		(property "Reference" "#PWR027"
-			(at 132.08 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBAT"
-			(at 132.08 155.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 132.08 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "99772603-0fd2-43d4-830c-db844ef23c36")
-		)
-		(instances
-			(project "so_26_eps_pcb"
-				(path "/bf42000f-dc59-47af-ab4a-8f583481d44f"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)
