@@ -14716,9 +14716,33 @@
 		(layer "Edge.Cuts")
 		(uuid "f574ab9e-4b50-436c-a17c-5c6f18d69fa6")
 	)
+	(gr_text "+ POLES HERE"
+		(at 68.2752 109.9494 90)
+		(layer "F.SilkS" knockout)
+		(uuid "6b6845ca-c346-44a7-ad2d-1fb5b01026e4")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "- POLES HERE"
+		(at 68.2752 54.2218 90)
+		(layer "F.SilkS" knockout)
+		(uuid "e4af24a6-dd95-43b0-97b8-b0467648c631")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "EXT PWR 10-16.8V"
-		(at 74.0156 111.9306 0)
-		(layer "F.SilkS")
+		(at 72.1868 111.6766 0)
+		(layer "F.SilkS" knockout)
 		(uuid "f46cd4f6-8440-4d7a-bbcf-bd36467b4331")
 		(effects
 			(font
@@ -14730,7 +14754,7 @@
 	)
 	(gr_text "+3V3"
 		(at 77.937123 105.3948 0)
-		(layer "B.SilkS")
+		(layer "B.SilkS" knockout)
 		(uuid "29de39f5-52c0-4a29-88f9-c5da1448f98c")
 		(effects
 			(font
@@ -14742,7 +14766,7 @@
 	)
 	(gr_text "+10V"
 		(at 87.2236 32.9366 90)
-		(layer "B.SilkS")
+		(layer "B.SilkS" knockout)
 		(uuid "2aae70fb-58f4-4d93-9eb4-6ae7c6dcbfd8")
 		(effects
 			(font
@@ -14754,7 +14778,7 @@
 	)
 	(gr_text "+3V3"
 		(at 117.1956 39.5914 0)
-		(layer "B.SilkS")
+		(layer "B.SilkS" knockout)
 		(uuid "35eb13b0-b805-4e76-a1f4-9883633e8010")
 		(effects
 			(font
@@ -14766,7 +14790,7 @@
 	)
 	(gr_text "VBAT_1"
 		(at 133.7056 31.9206 90)
-		(layer "B.SilkS")
+		(layer "B.SilkS" knockout)
 		(uuid "40efe6be-bb37-4aeb-8ad2-b4b50452fd71")
 		(effects
 			(font
@@ -14778,7 +14802,7 @@
 	)
 	(gr_text "ALT_+10V"
 		(at 94.2848 31.0062 90)
-		(layer "B.SilkS")
+		(layer "B.SilkS" knockout)
 		(uuid "af74643f-be06-4a93-ade3-3bb16e2c6408")
 		(effects
 			(font
@@ -14790,7 +14814,7 @@
 	)
 	(gr_text "+10V"
 		(at 77.937123 85.8702 0)
-		(layer "B.SilkS")
+		(layer "B.SilkS" knockout)
 		(uuid "bfd9c516-5c75-4007-b59c-a0e085b98661")
 		(effects
 			(font
@@ -14814,7 +14838,7 @@
 	)
 	(gr_text "VBAT_0"
 		(at 123.5456 31.819 90)
-		(layer "B.SilkS")
+		(layer "B.SilkS" knockout)
 		(uuid "ea061b33-a617-459b-b2f7-67e829d6222c")
 		(effects
 			(font
@@ -14826,7 +14850,7 @@
 	)
 	(gr_text "ALT_+10V"
 		(at 81.1276 96.1826 0)
-		(layer "B.SilkS")
+		(layer "B.SilkS" knockout)
 		(uuid "fea30204-7ee1-46dc-82dc-6976f4c60083")
 		(effects
 			(font
